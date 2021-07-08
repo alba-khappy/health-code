@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>healthCode</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Rosarivo&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./base.css">
+    <link rel="stylesheet" href="./main.css">
+    <script src="./app.js"></script>
+</head>
+
+<body>
+
+    <header>
+        <h1>
+            Тренинг Алексея Маматова
+        </h1>
+        <h1>
+            "Код здоровья"
+        </h1>
+    </header>
+
+    <main>
+        <section class="about">
+            <div class="about__photo">
+                <img src="./images/men.png" alt="men">
+                <p>Алексей Маматов автор программ естественного оздоровления организма,
+                    среди которых: «Древо Жизни», «Острое Зрение», «АллергоСТОП», «МЕГА-Мозг» и другие.</p>
+            </div>
+        </section>
+        <section class="content">
+            <div class="swiper-container mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <ul class="swiper-slide__ul">
+                            <li>Почему осень – поворотная точка для всего нашего здоровья? А. Маматов учит основам
+                                укрепления здоровья в преддверии зимних холодов.</li>
+                            <li>Что такое «Код Здоровья» и какую пользу всему организму приносит комплексная система
+                                оздоровления?</li>
+                            <li>Какие правила требуют соблюдения в соответствии с циркадными ритмами и сезонными
+                                климатическими изменениями?</li>
+                            <li>Как это – быть здоровым вопреки: экологии, качеству воды, продуктам на прилавках и
+                                ухудшающимися условиями жизни?</li>
+                            <li>Ученые уверены: люди живут гораздо меньше срока, отведённого природой для жизни.</li>
+                            <li>Какие факторы сильнее влияют на здоровье зрелого и пожилого человека?</li>
+                        </ul>
+                    </div>
+                    <div class="swiper-slide">
+                        <ul class="swiper-slide__ul">
+                            <li>Старость – не в радость? Глупости! Старость может и должна быть прекрасным временем для
+                                себя и своих близких.</li>
+                            <li>Возрастной износ организма – неизбежность, или мы всё-таки в силах влиять на него и
+                                запускать негативные процессы вспять?</li>
+                            <li>Почему болезнь никогда не приходит в одиночестве? Как не дать болезням привести своих
+                                «подруг»?</li>
+                            <li>Иммунная защита – миф алчных фармацевтов или реальный щит от множества заболеваний?</li>
+                            <li>Наследственность и крепкое здоровье в пожилом возрасте – есть ли связь, и в чем она
+                                выражается более всего?</li>
+                            <li>Как быть здоровым вопреки плохой наследственности?</li>
+                        </ul>
+                    </div>
+                    <div class="swiper-slide">
+                        <ul class="swiper-slide__ul">
+                            <li>Что имеют в виду китайские врачеватели, говоря: «Жить Осенью, не напрягаясь»?</li>
+                            <li>Польза осенних дождей для здоровья нервной системы и нормализации давления.</li>
+                            <li>Десять вредных пищевых привычек, которые сокращают нашу жизнь минимум на десять лет.
+                            </li>
+                            <li>Как волхвы Древней Руси «учили здоровью» простых людей, и что из их учений применимо
+                                сегодня?</li>
+                            <li> Как древнерусские старцы умудрялись сохранять здоровье до глубокой старости и рожать
+                                при этом малых деток?</li>
+                            <li>Как правильно болеть: о том, как преодолевать ОРВИ, ОРЗ, грипп, ангину, бронхит и другие
+                                популярные в народе заболевания.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>
+        <section class="check-in">
+            <div class="check-in__left-part">
+                <h2>Зарегистрируйтесь</h2>
+                <p class="check-in__left-part--p">Получите доступ к бесплатным трансляциям «Код здоровья»</p>
+                <form class="form">
+                    <input type="text" placeholder="Введите имя" class="input-text" name="Имя"
+                        data-validate-field="name" id="name" required>
+                    <input type="email" placeholder="Введите email" class="input-text" name="email"
+                        data-validate-field="mail" id="email">
+                    <button class="check-in-btn">Зарегистрироваться</button>
+                </form>
+
+
+
+
+
+                <div class="check-in__left-part--checkbox-container">
+                    <div class="checkbox-container" tabindex="0">
+                        <input id="check-1" class="check__input visually-hidden" type="checkbox" required>
+                        <label for="check-1" class="custom-checkbox check-in__left-part--privacy-policy">Отправляя
+                            данную форму, вы соглашаетесь с политикой конфиденциальности и договором оферты.</label>
+                    </div>
+                </div>
+
+            </div>
+            <div class="check-in__right-part">
+                <img src="./images/box.png" alt="box">
+                <p>Внимание!
+                </p>
+                <p>
+                    Количество мест на трансляции ограничено!
+                </p>
+                <p>Успейте зарегистрироваться
+                    и забронировать место на бесплатной трансляции.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>ИП Маматов Алексей Сергеевич. ИНН 502411835395, свидетельство о госрегистрации физлица в качестве ИП
+            309502419600032
+        </p>
+        <a href="#">Условия предоставления услуг |</a>
+        <a href="#">Соглашение</a>
+    </footer>
+
+
+    <!--swiper-->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: 'true',
+            },
+            loop: true,
+        });
+    </script>
+
+
+
+
+    <!--just-validate-->
+    <script>
+        new JustValidate('.form', {
+            colorWrong: '#F31111',
+            rules: {
+                name: {
+                    required: true,
+                    minLength: 2,
+                    maxLength: 10
+                },
+
+                mail: {
+                    required: true,
+                    email: true
+                },
+
+            },
+
+            messages: {
+
+                name: {
+                    required: 'Как вас зовут?'
+                },
+
+                mail: {
+                    required: 'Укажите ваш email'
+                },
+            },
+        });
+
+
+    </script>
+</body>
+
+</html>
